@@ -1,5 +1,5 @@
 import unittest
-from problems.euler_1 import *
+from problems.euler_001 import *
 
 class EulerTests(unittest.TestCase):
     def test_euler__1(self):
