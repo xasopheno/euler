@@ -20,3 +20,8 @@ Python with tests
 006
 Python with tests
 
+007
+Python with tests
+
+008
+Python with tests
