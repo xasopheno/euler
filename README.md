@@ -1,5 +1,17 @@
 # Project Euler
-Project solved in 
+
+Run Tests: `python3 run_tests.py`
+
+001
 Python with tests, C, Go, Haskell, and Javascript
 
-`python run_tests.py`
+002
+Python with tests, C, Go, Haskell, and Javascript
+
+003
+Python with tests, C, Go, Haskell, and Javascript
+
+004
+Python with tests
+
+
