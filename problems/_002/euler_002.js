@@ -15,4 +15,3 @@ function fib(n){
 }
 console.log(fib(4000000));
 
-
