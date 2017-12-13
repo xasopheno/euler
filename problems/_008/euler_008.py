@@ -14,6 +14,3 @@ def find_highest_adjacent_product(num):
             if product > maximum:
                 maximum = product
     return maximum
-
-
-print(find_highest_adjacent_product(13))
