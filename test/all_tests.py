@@ -7,5 +7,5 @@ def create_test_suite():
     module_strings = ['test.'+str[5:len(str)-3] for str in test_file_strings]
     suites = [unittest.defaultTestLoader.loadTestsFromName(name) \
               for name in module_strings]
-    testSuite = unittest.TestSuite(suites)
-    return testSuite
+    test_suite = unittest.TestSuite(suites)
+    return test_suite
