@@ -2,6 +2,7 @@ import unittest
 
 from problems._001.euler_001 import *
 from problems._002.euler_002 import *
+from problems._003.euler_003 import *
 
 
 class EulerTests(unittest.TestCase):
@@ -13,6 +14,9 @@ class EulerTests(unittest.TestCase):
 
     def test_euler__2(self):
         self.assertEqual(sum_fib(4000000), 4613732)
+
+    def test_euler__3(self):
+        self.assertEqual(largest_prime(), 6857)
 
 
 if __name__ == '__main__':
