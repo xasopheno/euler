@@ -14,4 +14,9 @@ Python with tests, C, Go, Haskell, and Javascript
 004
 Python with tests
 
+005
+Python with tests
+
+006
+Python with tests
 
