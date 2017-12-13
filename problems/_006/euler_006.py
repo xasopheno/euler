@@ -31,5 +31,3 @@ def difference_of_squares(num):
     sum_sq = sum_of_squares(num)
     sq_sum = square_of_sum(num)
     return sq_sum - sum_sq
-
-print(difference_of_squares(100))
