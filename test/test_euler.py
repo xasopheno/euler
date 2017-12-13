@@ -1,5 +1,8 @@
 import unittest
-from problems.euler_001 import *
+
+from problems._001.euler_001 import *
+from problems._002.euler_002 import *
+
 
 class EulerTests(unittest.TestCase):
     def test_euler__1(self):
@@ -9,7 +12,8 @@ class EulerTests(unittest.TestCase):
         self.assertEqual(sum3or5_list_comprehension(1000), 233168)
 
     def test_euler__2(self):
-        self.assertEqual(True, True)
+        self.assertEqual(sum_fib(4000000), 4613732)
+
 
 if __name__ == '__main__':
     unittest.main()
