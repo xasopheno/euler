@@ -6,3 +6,5 @@ def largest_prime(n=600851475143):
             n = n / i
             if n == 1 or n == i:
                 return i
+
+print(largest_prime())
