@@ -16,5 +16,3 @@ def fib(max):
 
 def sum_fib(n):
     return sum(fib(n))
-
-print(sum_fib(4000000))

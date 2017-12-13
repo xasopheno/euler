@@ -1,6 +1,8 @@
 import unittest
-from problems.euler_001 import *
-from problems.euler_002 import *
+
+from problems._001.euler_001 import *
+from problems._002.euler_002 import *
+
 
 class EulerTests(unittest.TestCase):
     def test_euler__1(self):
