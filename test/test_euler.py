@@ -3,6 +3,9 @@ import unittest
 from problems._001.euler_001 import *
 from problems._002.euler_002 import *
 from problems._003.euler_003 import *
+from problems._004.euler_004 import *
+from problems._005.euler_005 import *
+from problems._006.euler_006 import *
 
 
 class EulerTests(unittest.TestCase):
@@ -18,6 +21,19 @@ class EulerTests(unittest.TestCase):
     def test_euler__3(self):
         self.assertEqual(largest_prime(), 6857)
 
+    def test_euler__4(self):
+        self.assertEqual(test_for_palindromes(100, 100), 9009)
+        self.assertEqual(test_for_palindromes(1000, 1000), 906609)
+
+    def test_euler__5(self):
+        self.assertEqual(divisible_by_range(2520, 1, 10), True)
+        self.assertEqual(euler_005(), 232792560)
+
+    def test_euler__5(self):
+        self.assertEqual(sum_of_squares(10), 385)
+        self.assertEqual(square_of_sum(10), 3025)
+        self.assertEqual(difference_of_squares(10), 2640)
+        self.assertEqual(difference_of_squares(100), 25164150)
 
 if __name__ == '__main__':
     unittest.main()
