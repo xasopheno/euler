@@ -1,6 +1,4 @@
 language: python
-  python:
-    - 3.6
-    - nightly
-  script:
-    - run_tests.py
+python: 3.6
+script: run_tests.py
+
