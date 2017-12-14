@@ -7,6 +7,8 @@ from problems._004.euler_004 import *
 from problems._005.euler_005 import *
 from problems._006.euler_006 import *
 from problems._007.euler_007 import *
+from problems._008.euler_008 import *
+from problems._008.euler_008 import *
 
 
 class EulerTests(unittest.TestCase):
@@ -41,6 +43,10 @@ class EulerTests(unittest.TestCase):
         self.assertEqual(is_prime_num(10), False)
         self.assertEqual(sieve_of_eratosthenes(1000000, 6), 13)
         self.assertEqual(sieve_of_eratosthenes(1000000, 10001), 104743)
+
+    def test_euler__8(self):
+        self.assertEqual(find_highest_adjacent_product(4), 5832)
+        self.assertEqual(find_highest_adjacent_product(13), 23514624000)
 
 if __name__ == '__main__':
     unittest.main()
