@@ -8,7 +8,7 @@ from problems._005.euler_005 import *
 from problems._006.euler_006 import *
 from problems._007.euler_007 import *
 from problems._008.euler_008 import *
-from problems._008.euler_008 import *
+from problems._009.euler_009 import *
 
 
 class EulerTests(unittest.TestCase):
@@ -47,6 +47,10 @@ class EulerTests(unittest.TestCase):
     def test_euler__8(self):
         self.assertEqual(find_highest_adjacent_product(4), 5832)
         self.assertEqual(find_highest_adjacent_product(13), 23514624000)
+
+    def test_euler__9(self):
+        self.assertEqual(is_pythagorean_triplet(3,4,5), True)
+        self.assertEqual(findXYZ(500, 500, 500), 31875000)
 
 if __name__ == '__main__':
     unittest.main()
