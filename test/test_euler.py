@@ -10,6 +10,7 @@ from problems._007.euler_007 import *
 from problems._008.euler_008 import *
 from problems._009.euler_009 import *
 from problems._010.euler_010 import *
+from problems._011.euler_011 import *
 
 
 class EulerTests(unittest.TestCase):
@@ -54,6 +55,9 @@ class EulerTests(unittest.TestCase):
     def test_euler__010(self):
         self.assertEqual(euler_010(10), 17)
         self.assertEqual(euler_010(2000000), 142913828922)
+
+    def test_euler__011(self):
+        self.assertEqual(euler_011(), 70600674)
 
 if __name__ == '__main__':
     unittest.main()
