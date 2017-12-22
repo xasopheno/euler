@@ -2,14 +2,15 @@
 # we get 3, 5, 6 and 9. The sum of these multiples is 23.
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-def sum3or5_naive(n):
-    sum = 0
-    for i in range(n):
-        if (i%3 == 0) or (i%5 == 0):
-           sum += i
 
-    return sum
+def sum3or5_naive(n):
+    total = 0
+    for i in range(n):
+        if (i % 3 == 0) or (i % 5 == 0):
+            total += i
+    return total
 
 
 def sum3or5_list_comprehension(n):
     return sum(i for i in range(n) if i % 3 == 0 or i % 5 == 0)
+
