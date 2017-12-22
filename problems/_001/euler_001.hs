@@ -6,5 +6,4 @@ genericSolution001 = sum . filter multipleOf3or5 . enumFromTo 1 . subtract 1
 
 solution001 :: Integer
 solution001 = genericSolution001 1000
-
 main = print (solution001)

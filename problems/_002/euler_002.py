@@ -7,7 +7,6 @@
 # Fibonacci sequence whose values do not exceed
 # four million, find the sum of the even-valued terms.
 
-
 def fib(max):
     a, b = 0, 1
     while a < max:
