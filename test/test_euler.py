@@ -11,6 +11,11 @@ from problems._008.euler_008 import *
 from problems._009.euler_009 import *
 from problems._010.euler_010 import *
 from problems._011.euler_011 import *
+from problems._013.euler_013 import *
+from problems._014.euler_014 import *
+from problems._024.euler_024 import *
+from problems._028.euler_028 import *
+from problems._029.euler_029 import *
 
 
 class EulerTests(unittest.TestCase):
@@ -58,6 +63,23 @@ class EulerTests(unittest.TestCase):
 
     def test_euler__011(self):
         self.assertEqual(euler_011(), 70600674)
+
+    def test_euler__013(self):
+        self.assertEqual(euler_013(), 5537376230)
+
+    def test_euler__014(self):
+        self.assertEqual(euler_014_answer(), 837799)
+
+    def test_euler_024(self):
+        self.assertEqual(euler_024(), 2783915460)
+
+    def test_euler_028(self):
+        self.assertEqual(sum_diagnols(5), 101)
+        self.assertEqual(sum_diagnols(1001), 669171001)
+
+    def test_euler_029(self):
+        self.assertEqual(distinct_terms_of_exponentiation(2, 5), 15)
+        self.assertEqual(distinct_terms_of_exponentiation(2, 100), 9183)
 
 if __name__ == '__main__':
     unittest.main()
