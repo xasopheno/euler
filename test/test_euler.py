@@ -16,6 +16,8 @@ from problems._014.euler_014 import *
 from problems._024.euler_024 import *
 from problems._028.euler_028 import *
 from problems._029.euler_029 import *
+from problems._035.euler_035 import *
+from problems._037.euler_037 import *
 
 
 class EulerTests(unittest.TestCase):
@@ -46,8 +48,8 @@ class EulerTests(unittest.TestCase):
         self.assertEqual(difference_of_squares(100), 25164150)
 
     def test_euler__007(self):
-        self.assertEqual(sieve_of_eratosthenes(1000000, 6), 13)
-        self.assertEqual(sieve_of_eratosthenes(1000000, 10001), 104743)
+        self.assertEqual(nth_prime(1000000, 6), 13)
+        self.assertEqual(nth_prime(1000000, 10001), 104743)
 
     def test_euler__008(self):
         self.assertEqual(find_highest_adjacent_product(4), 5832)
@@ -80,6 +82,13 @@ class EulerTests(unittest.TestCase):
     def test_euler_029(self):
         self.assertEqual(distinct_terms_of_exponentiation(2, 5), 15)
         self.assertEqual(distinct_terms_of_exponentiation(2, 100), 9183)
+
+    def test_euler_035(self):
+        self.assertEqual(circular_primes(100), 13)
+        self.assertEqual(circular_primes(1000000), 55)
+
+    def test_euler_037(self):
+        self.assertEqual(euler_037(), 748317)
 
 if __name__ == '__main__':
     unittest.main()

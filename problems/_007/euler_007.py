@@ -4,7 +4,8 @@ import math
 #
 # What is the 10 001st prime number?
 
-def sieve_of_eratosthenes(max, goal):
+
+def nth_prime(max, goal):
     count = 0
     cache = [True] * max
     cache[0] = cache[1] = False
